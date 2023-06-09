@@ -161,6 +161,7 @@ p{
   .icon-item{
     position: relative;
     /* background-color: red; */
+    /* margin: 2px; */
   }
   .tag-icon{
     border-radius: 1.7rem;
