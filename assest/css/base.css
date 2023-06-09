@@ -1,0 +1,38 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color:#5e2bb8;
+}
+html{
+    font-family:   "Inter","AppleSDGothicNeo-Regular","Apple Gothic","Noto Sans KR","DroidSansFallback","HelveticaNeue-Regular",sans-serif ;  
+    font-size: 62.5%;
+}
+ul,
+li{
+    list-style-type: none;
+}
+.wrap__content{
+    background-color: var(--white-color);
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--primary-color);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--white-color)
+}
+.corner-left-top{
+    border-top-left-radius: 0.8rem;
+}
+.corner-right-top{
+    border-top-right-radius: 0.8rem;
+}
+.corner-left-bottom{
+    border-bottom-left-radius: 0.8rem;
+}
+.corner-right-bottom{
+    border-bottom-right-radius: 0.8rem;
+}

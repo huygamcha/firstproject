@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+p{
+    margin-bottom: 0rem !important;
+}
+.header{
+}
+.header__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 26px;
+    height: 44px;
+    background: linear-gradient(to right, rgb(94, 43, 184), rgb(114, 132, 228));
+}
+.header__main-list{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.header__main-item{
+    padding: 0px 3px;
+    font-weight: 600;
+    font-size: 13.8px;
+    letter-spacing: -0.078rem;
+    color: var(--white-color);
+}
+.wrap__radius{
+    background-color: var(--black-color);
+    color: #fff;
+    height: 31px;
+    width: 40px;
+    line-height: 32px;
+    border-radius: 44%;
+    text-align: center;
+    margin-top: -2px;
+    display: block;
+}
+.header__main-icon{
+    line-height: 12px;
+}
+.header__sub{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 28px;
+    align-items: center;
+    height: 55px;
+    background-color: var(--white-color);
+}
+.header__sub-icon-first{
+    width: 26px;
+    height: 26px;
+}
+.header__sub-icon-second{
+    width: 15px;
+    height: 15px;
+}
+.header__sub-location{
+    text-align: center;
+}
+.header__sub-info{
+    font-size: 9px;
+}
+
+.container-item{
+    position: relative;
+}
+.container-img{
+    border-radius: 1.6rem;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transform: scale(1.1);
+    width: 100%;
+}
+.container-info{
+    left: 2.6rem;
+    position: absolute;
+    text-align: left;
+    top: 7.5rem;
+}
+.container-header{
+    color: #111;
+    font-family: "hnt-font";
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -.07rem;
+    overflow: hidden;
+    max-height: 7.2rem;
+    max-width: 14.3rem;
+}
+.container-sub{
+    
+    color: hsla(0,0%,7%,.8);
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: -.05rem;
+    overflow: hidden;
+    margin-top: 0.8rem;
+    max-height: 3.5rem;
+    max-width: 15.3rem;
+    line-height: 1.4;
+}
+
+.icon-wrap{
+
+}
+.icon-item-detail{
+    height: 5.2rem;
+    margin: 0.9rem auto 0;
+    width: 5.2rem;
+}
+.icon-list{
+    width: max-contentß;
+}
+.icon-item{
+}
+.icon-item-detail-icon{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+#icon {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 5px;
+    box-sizing: border-box;
+    height: 9.5rem;
+    width: 100%;
+    background-color: #fff;
+    overflow-x: scroll; 
+    overflow-y: hidden;
+    padding: 1rem 2.6rem;
+  }
+  
+  #icon > div {
+    background-color: #f5f5f5;
+    height: 6.5rem;
+    padding: 5px;
+    border-radius: 0.8rem;
+  }
+  .icon-detail{
+    height: 5.5rem;
+  }
+ /* Ẩn thanh cuộn trên Chrome, Edge và các trình duyệt tương tự */
+#icon::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Ẩn thanh cuộn trên Firefox */
+  #icon {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .icon-item{
+    position: relative;
+  }
+  .tag-icon{
+    border-radius: 1.7rem;
+    color: #fff;
+    display: inline-block;
+    font-size: .8rem;
+    right: 0;
+    letter-spacing: -.04rem;
+    line-height: 1;
+    max-width: 6rem;
+    min-width: 2.1rem;
+    padding: 0.4rem 0.4rem 0.3rem;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: -moz-fit-content;
+    width: fit-content;
+    word-break: break-all;
+    z-index: 2;
+    background-color: #834fe0;
+  }
+.icon-content{
+
+}
+
+.after-like{
+    padding: 1.2rem 2.6rem;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+}
+.after-like-item{
+    border-left: 1px solid transparent;
+    height: 5rem;
+    width: 33.3%;
+}
+.after-like-des{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: transparent;
+    background-color: rgba(69,133,255,.08);
+    color: #111;
+    cursor: pointer;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    height: inherit;
+    letter-spacing: -.078rem;
+    padding-top: 1.6rem;
+    text-align: center;
+}
+.tag-sub{
+    font-size: 1.1rem;
+    height: 1.2rem;
+    letter-spacing: -.06rem;
+    line-height: 1.1;
+    overflow: hidden;
+    display: block;
+    height: 1.3rem;
+    margin-top: 0.6rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
