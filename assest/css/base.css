@@ -7,6 +7,9 @@ html{
     font-family:   "Inter","AppleSDGothicNeo-Regular","Apple Gothic","Noto Sans KR","DroidSansFallback","HelveticaNeue-Regular",sans-serif ;  
     font-size: 62.5%;
 }
+.ml5{
+    margin-left: -5px;
+}
 ul,
 li{
     list-style-type: none;

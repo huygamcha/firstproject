@@ -7,6 +7,9 @@
 p{
     margin-bottom: 0rem !important;
 }
+body{
+    height: 2000px;
+}
 .header{
 }
 .header__main{
@@ -228,6 +231,83 @@ p{
     text-align: center;
 }
 
+.location-content{
 
+}
+.location-list{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.location-item{
+    width: 7.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: transparent;
+    background-color: transparent;
+    border-radius: 0;
+    height: auto;
+    margin-left: 0;
+    padding-bottom: 1.4rem;
+    padding-top: 1rem;
+}
+.location-img{
+    height: 3.6rem;
+    width: 3.6rem;
+}
+.location-des{
+    color: #111;
+    font-size: 1.1rem;
+    height: 1.9rem;
+    letter-spacing: -.048rem;
+    padding-top: 0.6rem;
+}
+
+.icon-detail-second{
+    background: #f2f2f2 url(https://image.hanatour.com/usr/static/img2/mobile/com/noimage.png) 50%/5rem auto no-repeat;
+    border-radius: 1rem;
+    display: block;
+    height: 13.2rem;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 14.8rem;
+}
+
+#icon-second {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 5px;
+    box-sizing: border-box;
+    height: 18.5rem;
+    width: 100%;
+    background-color: #fff;
+    overflow-x: scroll; 
+    overflow-y: hidden;
+    padding: 1rem 0rem 1rem 2.6rem;
+  }
+  
+  #icon-second > div {
+    height: 13.2rem;
+    padding: 5px;
+    border-radius: 0.8rem;
+  }
+ 
+   /* Ẩn thanh cuộn trên Chrome, Edge và các trình duyệt tương tự */
+#icon-second::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Ẩn thanh cuộn trên Firefox */
+  #icon-second {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+.icon-item-second:first-child{
+    padding: 5px 5px 0px;
+}
+ 
 
 
