@@ -265,16 +265,6 @@ body{
     padding-top: 0.6rem;
 }
 
-.icon-detail-second{
-    background: #f2f2f2 url(https://image.hanatour.com/usr/static/img2/mobile/com/noimage.png) 50%/5rem auto no-repeat;
-    border-radius: 1rem;
-    display: block;
-    height: 13.2rem;
-    margin: 0;
-    overflow: hidden;
-    position: relative;
-    width: 14.8rem;
-}
 
 #icon-second {
     display: grid;
@@ -287,8 +277,18 @@ body{
     overflow-x: scroll; 
     overflow-y: hidden;
     padding: 1rem 0rem 1rem 2.6rem;
-  }
-  
+}
+.icon-detail-second{
+    background: #f2f2f2 url(https://image.hanatour.com/usr/static/img2/mobile/com/noimage.png) 50%/5rem auto no-repeat;
+    border-radius: 1rem;
+    display: block;
+    height: 13.2rem;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 14.8rem;
+}
+
   #icon-second > div {
     height: 13.2rem;
     padding: 5px;
@@ -308,6 +308,340 @@ body{
 .icon-item-second:first-child{
     padding: 5px 5px 0px;
 }
+
+.discount{
+    padding:2.6rem;
+    position: relative;
+    background-color: #f5f5f5;
+}
+.discount-header{
+    max-height: 4.7rem;
+    width: 19.5rem;
+    margin-bottom: 1.2rem;
+}
+.discount-heading{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+.discount-img-icon{
+   
+    background: #f2f2f2 url(https://image.hanatour.com/usr/static/img2/mobile/com/noimage.png) 50%/5rem auto no-repeat;
+    /* border-radius: 1.5rem; */
+    display: block;
+    height: 22rem;
+    /* margin-bottom: 1.6rem; */
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+.discount-icon{
+    border-radius: 1.5rem;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+.discount-info{
+    display: flex;
+    flex-direction: column;
+}
+.discount-info-header{
+    color: #111;
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: -1.14px;
+    line-height: 2.25rem;
+    margin-bottom: 0.5rem;
+    padding: 0 1rem;
+    position: relative;
+    margin-top: 1.2rem;
+}
+.discount-info-des{
+    color: #999;
+    font-size: 1.3rem;
+    letter-spacing: -.78px;
+    margin-bottom: 0.8rem;
+    margin-top: 0.4rem;
+    padding: 0 1rem;
+}
+
+.discount-price{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.discount-price-one{
+    font-size: 1.6rem;
+    margin-right: 0.4rem;
+    color: #ff299c;
+    font-weight: 700;
+}
+.discount-price-two{
+    font-size: 1.6rem;
+    margin-right: 0.4rem;
+    font-weight: 700;
+}
+.discount-price-three{
+    font-size: 1.4rem;
+    color: #888;
+    font-weight: 700;
+
+}
+.discount-timing{
+    background-color: #302f31;
+    border-radius: 3.2rem;
+    color: #fff;
+    font-size: 2.1rem;
+    letter-spacing: -1px;
+    padding: 0.6rem 3rem 0.7rem 3rem;
+    text-align: center;
+    width: 100%;
+}
+.timing-wrap{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 800;
+    letter-spacing: -.7px;
+    line-height: 1.7;
+    padding-left: 2rem;
+    position: relative;
+    vertical-align: top;
+    margin: 0 4rem;
+    
+}
+.timing-icon{
+    background-image: url(https://image.hanatour.com/usr/static/img2/mobile/com/ico_watch_02.png);
+    background-size: 1.6rem auto;
+    content: "";
+    display: block;
+    height: 1.6rem;
+    left: -2px;
+    opacity: .7;
+    position: absolute;
+    top: 0.7rem;
+    width: 1.6rem;
+}
+.timing-quality{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+.timing-time{
+    letter-spacing: .01rem;
+    padding: 0 0.4rem;
+}
+.timing-des{
+    color: #fff;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    opacity: .7;
+    vertical-align: middle;
+}
+.timing-time-des{
+    letter-spacing: .01rem;
+    padding: 0 0.4rem;
+    font-size: 1.6rem;
+}
+
+.combo{
+
+}
+.combo-header{
+    padding: 0 2.6rem;
+   position: relative;
+}
+.combo-header-img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+.combo-header-icon{
+    max-height: 4.7rem;
+    width: 19.5rem;
+}
+.combo-header-des{
+    background: url(https://image.hanatour.com/usr/static/img2/mobile_dcr/main/ico_arrow_right_s24.png) right 0.2rem/1.2rem no-repeat;
+    bottom: -0.1rem;
+    color: #111;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-right: 1.2rem;
+    position: absolute;
+    right: 2.6rem;
+}
+
+
+#icon-third {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 14px;
+    box-sizing: border-box;
+    height: 36.5rem;
+    width: 100%;
+    background-color: #fff;
+    overflow-x: scroll; 
+    overflow-y: hidden;
+    padding: 1rem 0rem 1rem 2.6rem;
+}
+.icon-detail-third{
+    background: #f2f2f2 url(https://image.hanatour.com/usr/static/img2/mobile/com/noimage.png) 50%/5rem auto no-repeat;
+    border-radius: 1rem;
+    display: block;
+    height: 15rem;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 25.8rem;
+}
+
+  #icon-third > div {
+    border-radius: 16px;
+    box-shadow: 0 3px 13px 0 hsla(0,0%,7%,.08);
+  }
  
+   /* Ẩn thanh cuộn trên Chrome, Edge và các trình duyệt tương tự */
+#icon-third::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Ẩn thanh cuộn trên Firefox */
+  #icon-third {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
 
+.combo-location{
+    position: relative;
+}
+.combo-location-header{
 
+}
+.combo-location-img{
+    background: url(https://image.hanatour.com/usr/static/img2/mobile/com/ico_location_line_04.png) 50%/110% auto no-repeat;
+    content: "";
+    display: block;
+    height: 1.4rem;
+    left: 0.5rem;
+    position: absolute;
+    top: 0.3rem;
+    width: 1.4rem;
+}
+.combo-location-wrap{
+    background-color: rgba(51,51,51,.6);
+    border: 0.5px solid hsla(0,0%,7%,.2);
+    border-radius: 2.5rem;
+    height: 2rem;
+    left: 1.6rem;
+    line-height: 2rem;
+    padding: 0 0.8rem;
+    position: absolute;
+    top: 1.2rem;
+}
+.combo-location-header{
+    color: #fff;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -.07rem;
+    max-width: 8rem;
+    overflow: hidden;
+    padding-left: 1.2rem;
+    position: relative;
+    text-overflow: ellipsis;
+    text-shadow: 0 0.5px 1px rgba(0,0,0,.4);
+    white-space: nowrap;
+}
+.combo-location-map{
+    height: 10rem;
+    position: absolute;
+    right: 1.6rem;
+    top: -6.8rem;
+    width: 10rem;    
+}
+.combo-location-sub{
+    margin-top: 5rem;
+    height: 4.3rem;
+    letter-spacing: -.72px;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.36rem;
+    color: #111;
+    max-width: 22rem;
+    margin-left: 2rem;
+    overflow: hidden;
+}
+
+.combo-quality{
+    display: flex;
+    justify-content: space-between;    
+    padding: 0px 1.2rem 0px 1.4rem;
+
+}
+.combo-avatar{
+    display: flex;
+    font-weight: 600;
+    line-height: 1.6rem;    
+}
+.combo-avatar-img{
+    border-radius: 100%;
+    display: inline-block;
+    height: 1.7rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 1.7rem;
+}
+.combo-avatar-des{
+    color: #888;
+    font-size: 1.2rem;
+    letter-spacing: -.5px;
+}
+.combo-rate{
+    display: flex;
+    align-items: center;
+
+}
+.combo-view{
+    display: flex;
+    align-items: center;
+
+}
+.combo-view-img{
+    background-image: url(https://image.hanatour.com/usr/static/img2/mobile/com/ico_view_line_03.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+.combo-view-quality{
+    color: #666;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-left: 0.2rem;
+    padding-right: 0.6rem;
+}
+.combo-down{
+    display: flex;
+    align-items: center;
+}
+.combo-down-img{
+    background-image: url(https://image.hanatour.com/usr/static/img2/mobile/com/ico_download_line_93.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 1.4rem;
+    width: 1.4rem;
+    
+}
+.combo-down-quality{
+    color: #666;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-left: 0.2rem;
+    padding-right: 0.6rem;
+}
