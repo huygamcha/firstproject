@@ -4,11 +4,20 @@
     margin: 0;
     outline: 0;
 }
+.disable{
+    display: none;
+}
+.violet{
+    background-color: #7f1cc7;
+}
+.flex{
+    display: flex;
+}
 p{
     margin-bottom: 0rem !important;
 }
 body{
-    height: 2000px;
+    height: 10000px;
 }
 .header{
 }
@@ -480,7 +489,7 @@ body{
     grid-template-columns: repeat(10, 1fr);
     grid-gap: 14px;
     box-sizing: border-box;
-    height: 36.5rem;
+    height: 31.5rem;
     width: 100%;
     background-color: #fff;
     overflow-x: scroll; 
@@ -499,6 +508,7 @@ body{
 }
 
   #icon-third > div {
+    height: auto;
     border-radius: 16px;
     box-shadow: 0 3px 13px 0 hsla(0,0%,7%,.08);
   }
@@ -591,6 +601,7 @@ body{
     border-radius: 100%;
     display: inline-block;
     height: 1.7rem;
+    margin-right: 2px;
     -o-object-fit: cover;
     object-fit: cover;
     width: 1.7rem;
@@ -644,4 +655,258 @@ body{
     font-weight: 700;
     padding-left: 0.2rem;
     padding-right: 0.6rem;
+}
+
+.add-new{
+    width: 25.8rem;
+    height: 36.5rem;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-new-header{
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: -.7px;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+.add-new-button{
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: -.52px;
+    border: 1px solid #e5e5e5;
+    display: inline-block;
+    margin-bottom: 3.7rem;
+    padding: 1.2rem 4rem;
+    border-radius: 5.5rem;
+}
+
+.add-new-button a{
+    text-decoration: none;
+}
+.add-new-link a{
+    color: #999;
+    font-size: 1.2rem;
+}
+
+.trend-trip-img{
+    width: 390px;
+    height: 150px;
+    /* object-fit: cover; */
+}
+.discount-second{
+    padding: 2.6rem 0;
+}
+.discount-icon-second{
+    border-radius: 0;
+   
+}
+.discount-info-second{
+    padding: 1.2rem 2.6rem 0rem;
+    flex-direction: column;
+}
+.discount-info-des-second{
+    color: #111;
+    font-weight: 600;
+    height: auto;
+    line-height: 1.28;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.discount-info-header-second{
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: -.44px;
+    float: left;
+    white-space: nowrap;
+    color: #aaa;
+}
+.discount-img-icon-trend{
+    height: 27rem;
+    position: relative;
+}
+.trend-wrap{
+    border: 1px solid #fff;
+    /* border-radius: 2.5rem; */
+    font-size: 1.2rem;
+    height: 2.9rem;
+    line-height: 2.9rem;
+    margin: 0 0.3rem;
+    padding: 0 1.3rem;
+    z-index: 2;
+}
+.trend-wrap-header{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+.trend-wrap-img{
+    background: url(https://image.hanatour.com/usr/static/img2/mobile/livecm/icon-alarm-solid.png) 0 0/100% no-repeat;
+    height: 1.2rem;
+    margin: 0.5rem 0.5rem 0;
+    width: 1.2rem;
+}
+.trend-img::after{
+    content: '';
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(0,0%,7%,.4);
+    z-index: 1;
+}
+
+.add-new-trend{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    right: 0;
+    color: #fff;
+    top: 35%;
+    left: 0;
+    font-size: 1.7rem;
+    letter-spacing: -.72px;
+    font-weight: 500;
+}
+.coming-soon{
+    background-color: #7f1cc7;
+    border-radius: 0;
+    border: 0;
+    height: 2.4rem;
+    line-height: 2.7rem;
+    margin: 0 0.3rem;
+    padding: 0px 0.9rem;
+}
+.coming-soon-header{
+    font-size: 0.9rem;
+    padding-left: 0;
+      
+}
+
+.trend-after-time{
+    position: absolute;
+    top: 60%;
+    left: 39%;
+}
+.trend-header{
+   position: relative;
+}
+.trend-heading{
+    position: absolute;
+    top: 4px;
+    right: -100%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-right: 2.6rem;
+}
+.icon-third-pick{
+    display: grid;
+}
+
+.pick{
+  width: calc(100% - 5.2rem);   
+  justify-content: center;
+  margin-left: 2.6rem;
+}
+.pick-item{
+    width: 100%;
+    position: relative;
+}
+.pick-img{
+    width: 100%;
+    height: 16rem;
+    border-radius: 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.pick-wrap{
+    left: 32rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+.pick-wrap-heading{
+        font-size: 1.2rem;
+        padding-left: 0;
+
+}
+.pick-label{
+    /* position: absolute;
+    z-index: 2;
+    
+    border-radius: 0;
+    border: 0;
+    height: 2.4rem;
+    line-height: 2.7rem;
+    margin: 0 0.3rem;
+    padding: 0px 0.9rem; */
+    bottom: 41%;
+    color: #fff;
+    display: flex;
+    font-size: 1.1rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    padding: 0 1rem;
+    position: absolute;
+    margin-left: 2rem;
+    border-radius: 4px;
+}
+.pick-label-header{
+    font-weight: 700;
+}   
+
+.pick-info{
+    padding: 1.6rem 2rem 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0 3px 13px 0 hsla(0,0%,7%,.08);
+}
+.pick-header{
+    height: 3.8rem;
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: -.76px;
+    line-height: 1.9rem;
+}
+.pick-sub{
+    color: #999;
+    font-size: 1.3rem;
+    letter-spacing: -.72px;
+    line-height: 1.4;
+    margin: 0.4rem 0 0.8rem;
+}
+.pick-price{
+    font-size: 1.6rem;
+    margin-right: 0.4rem;
+    font-weight: 700;
+}
+
+.pick-default-right{
+    position: relative;
+}
+.pick-wrap-info{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(51,51,51,.6);
+    border: 0.5px solid hsla(0,0%,7%,.2);
+    border-radius: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.8rem;
+}
+.pick-wrap-info-img{
+
+    background: url(https://image.hanatour.com/usr/static/img2/mobile/com/ico_location_line_04.png) 50%/110% auto no-repeat;
+        display: block;
+        height: 1.4rem;
+        width: 1.4rem;
 }

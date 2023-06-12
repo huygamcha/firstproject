@@ -1,5 +1,5 @@
 function countdown() {
-    var endDate = new Date("2023-06-11 12:00:00"); // Thời gian kết thúc đếm ngược
+    var endDate = new Date("2023-06-13 12:00:00"); // Thời gian kết thúc đếm ngược
   
     var countdownElement = document.getElementById("timing-time");
   
