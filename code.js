@@ -34,6 +34,35 @@ function countdown() {
   }
   
   countdown();
-  
+// Lấy tất cả các carousel và buttons
+const carousels = document.querySelectorAll('.carousel');
+const buttons = document.querySelectorAll('.carousel-control-prev, .carousel-control-next');
+
+// Lặp qua từng carousel và thêm hành vi chung
+carousels.forEach((carousel) => {
+  const instance = new bootstrap.Carousel(carousel);
+
+  buttons.forEach((button) => {
+    button.addEventListener('click', function(event) {
+      event.preventDefault();
+      instance.cycle();
+    });
+  });
+});
+// header-main
+// header-sub
+document.onscroll = function (){
+  let a = document.querySelector('#scroll-nav')
+   let b = document.querySelector('.header__main')
+ 
+if ( document.documentElement.scrollTop >= '400' ){
+  b.classList.add('disabled')
+  a.classList.add('flex')
+} else {
+   b.classList.remove('disabled')
+  a.classList.remove('flex')
+ }
+}
+
 
   

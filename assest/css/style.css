@@ -17,11 +17,17 @@ p{
     margin-bottom: 0rem !important;
 }
 body{
-    height: 10000px;
+    height: 8100px;
 }
 .header{
+    position: fixed;
+    width: 100%;
+    z-index: 90;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.08);
 }
+
 .header__main{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,9 +63,11 @@ body{
     line-height: 12px;
 }
 .header__sub{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 0 28px;
+    /* margin: 0 28px; */
+    padding: 0 26px;
     align-items: center;
     height: 55px;
     background-color: var(--white-color);
@@ -140,7 +148,7 @@ body{
 }
 #icon {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-gap: 5px;
     box-sizing: border-box;
     height: 9.5rem;
@@ -277,7 +285,7 @@ body{
 
 #icon-second {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 5px;
     box-sizing: border-box;
     height: 18.5rem;
@@ -285,8 +293,9 @@ body{
     background-color: #fff;
     overflow-x: scroll; 
     overflow-y: hidden;
-    padding: 1rem 0rem 1rem 2.6rem;
+    padding: 1rem 2.6rem 1rem 2.6rem;
 }
+
 .icon-detail-second{
     background: #f2f2f2 url(https://image.hanatour.com/usr/static/img2/mobile/com/noimage.png) 50%/5rem auto no-repeat;
     border-radius: 1rem;
@@ -840,16 +849,7 @@ body{
 
 }
 .pick-label{
-    /* position: absolute;
-    z-index: 2;
-    
-    border-radius: 0;
-    border: 0;
-    height: 2.4rem;
-    line-height: 2.7rem;
-    margin: 0 0.3rem;
-    padding: 0px 0.9rem; */
-    bottom: 41%;
+    bottom: 36%;
     color: #fff;
     display: flex;
     font-size: 1.1rem;
@@ -871,7 +871,6 @@ body{
     box-shadow: 0 3px 13px 0 hsla(0,0%,7%,.08);
 }
 .pick-header{
-    height: 3.8rem;
     font-size: 1.9rem;
     font-weight: 600;
     letter-spacing: -.76px;
@@ -1013,7 +1012,344 @@ ul.slick-dots li {
 ul.slick-dots li button {
     font-size: 0;
 }
-
 .carousel-indicators .active {
     background-color: #5e2bb8 !important;
+}
+.tit-wrap{
+    -webkit-tap-highlight-color: initial;
+}
+.tit-wrap-header{
+    color: #111;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: -1.02px;
+    line-height: 1.4;
+    margin-top: 2rem;
+
+    padding-left: 2.6rem;
+}
+.tit-wrap-info{
+
+}
+.tit-wrap-heading{
+    background-color: #fff;
+    color: #111;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    height: auto;
+    letter-spacing: -.44px;
+    line-height: 1.36rem;
+    margin-right: 0.3rem;
+    margin-top: 1rem;
+    padding: 0;
+    vertical-align: middle;
+}
+.tit-wrap-sub{
+    color: #111;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+    line-height: 1.33;
+    margin-top: 0.3rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: 1rem;
+}
+.tit-wrap-price{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+.tit-wrap-img{
+    background: #f7f7f7 url(https://image.hanatour.com/usr/static/img2/mobile/com/noimage.png) 50%/50% no-repeat;
+    border-radius: 1rem;
+    display: block;
+    height: 13.2rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 14.8rem;
+}
+.tit-wrap-img-detail{
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+.tower{
+    position: relative;
+}
+.tower-img{
+    position: relative;
+    background-image: url(https://image.hanatour.com/usr/manual/mo/main/ms_bnr/ms_bnr042.jpg);
+    background-size: 100% 17.1rem;
+    height: 17.1rem;
+    margin-top: 4rem;
+}
+.tower-info{
+    position: absolute;
+    top: rem;
+    left: 2.6rem;
+    width: 80%;
+}
+.tower-info-header,
+.tower-info-sub-main{
+    
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: -.156rem;
+    line-height: 1.29;
+    margin-bottom: 0;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    width: 75%;
+}
+.tower-info-sub {
+
+}
+.tower-info-sub-main{
+
+}
+.tower-info-sub-des{
+    color: #fff;
+    display: inline-block;
+    flex: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    height: auto;
+    letter-spacing: -.48px;
+    line-height: 3rem;
+    margin-top: 0;
+    padding: 0;
+    width: auto;
+}
+
+#tower-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 2.6rem;
+    position: absolute;
+    top: 70%;
+}
+.tower-item{
+    width: calc( (100% - 2rem ) / 3);
+}
+.tower-item-img{
+    border-radius: 0.8rem;
+    height: 10rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+.tower-wrap-info{
+
+}
+.tower-wrap-heading{
+    color: #111;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: -.78px;
+    line-height: 1.38;
+    margin: 0.8rem 0 0.2rem;
+}
+.tower-wrap-sub{
+    color: #999;
+    font-size: 1.2rem;
+    letter-spacing: -.72px;
+    line-height: 1.42;
+    overflow: hidden;
+}
+.tit-wrap-img-second,
+.tit-container{
+    width: 18rem;
+    height: 18rem;
+    position: relative;
+}
+.tit-container{
+    background-color: #fff;
+    box-shadow: 0 3px 13px 0 hsla(0,0%,7%,.08);
+
+
+}
+.tit-img-second{
+    width: 100%;
+    height: 100%;
+}
+.tit-wrap-img-second::after{
+    position: absolute;
+    content: '';
+    border-radius: 1rem;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: -2px 3px 8px 0 rgba(0,0,0,0.3);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)); /* Đặt lớp phủ bằng gradient mờ */
+  
+}
+.tit-wrap-img-second::after.last{
+    position: absolute;
+    content: '';
+    border-radius: 1rem;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: -2px 3px 8px 0 rgba(0,0,0,0.3);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)); Đặt lớp phủ bằng gradient mờ */
+  
+}
+.icon-item-second{
+    
+}
+.tit-wrap-info-second{
+    position: absolute;
+    margin-left: 2.6rem;
+    margin-top: 2.6rem;
+    top: 0;
+    left: 0;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 0.7rem;
+    z-index: 2;
+}
+.tit-content{
+    width: 18rem;
+    height: 18rem;
+    background-color: #fff;
+    position: relative;
+}
+.tit-content-header{
+    position: absolute;
+    flex-direction: column;
+    top: 30%;
+    left: 18%;
+    align-items: center;
+    color: #111;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 1.4rem;
+}
+.tit-content-sub{
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5.5rem;
+    font-weight: 500;
+    letter-spacing: -.7px;
+    padding: 1rem 1.7rem;
+    /* padding: 0.9rem 4.9rem; */
+    color: #4585ff;
+    top: 56%;
+    left: 11%;
+    line-height: 1.3;
+    font-size: 1.3rem;
+}
+.footer{
+    padding: 1rem 0rem 3rem 0rem;
+}
+.footer-list{
+    justify-content: space-between;
+    text-align: center;
+    height: 40px;
+    overflow: hidden;
+    border-top: 1px solid rgb(102, 102, 102);
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+.footer-item{
+    width: calc( (100%)/ 3);
+    text-align: center;
+    display: block;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(17, 17, 17);
+}
+.footer-item:not(:last-child){
+    border-right: 1px solid rgb(221, 221, 221);
+
+}
+.link{
+    padding: 0px 16px 10px;
+}
+.link-list{
+
+}
+.link-item{
+    display: inline-block;
+    padding-left: 9px;
+    margin-right: 6px;
+    font-size: 14px;  
+}
+.link-item a{
+    color: rgb(102, 102, 102);
+}
+.link-item:nth-child(2) a {
+    color: rgb(17, 17, 17);
+    font-weight: 600;
+}
+
+.about{
+   padding: 20px; 
+   padding-left: 25px;
+
+}
+.toggle{
+    background: url(https://image.hanatour.com/usr/static/img2/mobile/com/ico_acc_down.png) 100% 50% / 13px no-repeat rgb(255, 255, 255);
+    display: inline-block;
+    padding: 0px 16px 0px 0px;
+    font-size: 14px;
+}
+.copy-right{
+    padding: 20px; 
+   padding-left: 25px;
+   font-size: 12px;
+   line-height: 19px;
+}
+.copy-right-header{
+}
+.copy-right-sub{
+    margin: 0 auto;
+}
+
+#scroll-nav{
+    display: none ;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.08);
+}
+.scroll-nav-list{
+    justify-content: space-between;
+    padding: 1rem 2.6rem;
+    align-items: center;
+    height: 56px;
+   
+}
+.scroll-nav-item{
+    color: #111;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#scroll-nav{
+    animation: FadeIn 0.4s linear ;
+    
+}
+#scroll-nav.flex{
+    display: block;
+    animation: FadeIn 0.4s linear ;
+}
+.header__main{
+    animation: FadeIn 0.1s linear ;
 }
